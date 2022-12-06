@@ -36,6 +36,27 @@
     - [x] Contexto `{}`
     - [x] Métodos `()`
 
-- [ ] Condicionais
-    - [ ] `if`, `else if`, `else`
-    - [ ] `switch`, `case`, `continue`, `break` `default`
+
+- [x] Condicionais*
+    - [x] `if`, `else if`, `else`
+    - [x] `switch`, `case`, `continue`, `break` `default`
+
+**Conteúdo precisou ser ministrado no dia 05/12.*
+
+## Aula 25 - Pensamento lógico com javascript 2/3
+
+- [x] Lista de valores (`Array`)
+    - [x] Declaração
+    - [x] Acessando os valores através do indice
+    - [x] `indexOf()`
+    - [x] `includes()`
+    - [x] `push()`
+    - [x] `pop()`
+    - [x] `shift()`
+    - [x] `unshift()`
+    - [x] `join()`
+
+- [x] Ciclo de repetições
+    - [x] `for()`
+    - [x] `while()`
+    - [x] `forEach()`
