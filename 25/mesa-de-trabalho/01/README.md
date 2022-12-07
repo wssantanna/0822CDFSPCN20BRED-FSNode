@@ -83,7 +83,6 @@ console.log("6. Listar todos os filmes com seu indice/posicao na lista.", listar
 console.log("7. Lista quantidade de filmes desejado pelo usuário", listarFilmesPorQuantidade(3))
 ```
 
-
 2. Responda, quais métodos do objeto Array foram utilizados para resolução desse problema?
 
 - [ ] `insert()`, `delete()`, `update()` e `reader()`.
@@ -91,12 +90,30 @@ console.log("7. Lista quantidade de filmes desejado pelo usuário", listarFilmes
 - [ ] Variáveis, funções, parâmetros, retorno de função, `push()`, `shift()`, `unshift()`, `length` e `join()`.
 - [ ] Nenhuma das alternativas anteriores.
 
-3. Responda, quais tipos de variáveis é retornada  pela função `apresentaTodosOsFilmesSeparadosPorPontoVirgula()`?
+<details><summary>Resposta</summary>
+<p>
+
+- [x] Variáveis, funções, parâmetros, retorno de função, `push()`, `shift()`, `unshift()`, `length` e `join()`.
+
+</p>
+</details>
+
+3. Responda, quais tipos de variáveis é retornada pela função `apresentaTodosOsFilmesSeparadosPorPontoVirgula()`?
 
 - [ ] `Array`.
 - [ ] `string`.
 - [ ] `boolean`.
 - [ ] `object`.
+
+
+<details><summary>Resposta</summary>
+<p>
+
+- [x] `Array`.
+- [x] `string`.
+
+</p>
+</details>
 
 ## Conclusão
 
