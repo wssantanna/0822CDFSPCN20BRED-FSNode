@@ -60,3 +60,15 @@
     - [x] `for()`
     - [x] `while()`
     - [x] `forEach()`
+
+## Aula 26 - Pensamento lógico com javascript 3/3
+
+- [x] Callbacks
+
+- [x] Objeto literais
+    - [x] Armazenando multiplos objeto em vetores
+    - [x] Ciclo de repetição em vetores de objetos
+
+- [x] JSON
+    - [x] `JSON.parse()`
+    - [x] `JSON.stringfy()`
