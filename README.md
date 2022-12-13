@@ -72,3 +72,9 @@
 - [x] JSON
     - [x] `JSON.parse()`
     - [x] `JSON.stringfy()`
+
+## Aula 27 - Como funciona a internet? - *Aula teórica*
+
+- [x] Internet e Web são a mesma coisa?
+- [x] Protocolo HTTP
+- [x] Divisão Cliente x Servidor
