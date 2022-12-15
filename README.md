@@ -73,8 +73,40 @@
     - [x] `JSON.parse()`
     - [x] `JSON.stringfy()`
 
-## Aula 27 - Como funciona a internet? - *Aula teórica*
+## Aula 27 - Como funciona a internet? - *teórica*
 
 - [x] Internet e Web são a mesma coisa?
 - [x] Protocolo HTTP
 - [x] Divisão Cliente x Servidor
+
+## Aula 28 - Introdução à Express
+
+- [x] Nodejs
+    - [x] npm
+        - [x] Dependências de produção e desenvolvimento
+
+- [x] Express
+    - [x] `get()`
+        - [x] `require`
+            - [x] `params`
+            - [ ] `body`
+            - [ ] `query`
+        - [x] `response`
+            - [x] `send()`
+            - [ ] `sendStatus()`
+            - [ ] `sendFile()`
+            - [ ] `download()`
+            - [ ] `json()`
+            - [ ] `render()`
+            - [ ] `redirect()`
+    - [x] `listen()`
+
+- [x] `http`
+    - [x] `router`
+        - [x] `/path`
+        - [x] `/path/:param`
+        - [ ] `/path?queries`
+
+- [x] **BONUS**: Projeto Integrador
+    - [x] [Apresentação do *Briefing*](https://docs.google.com/document/d/19o1s0FmoVinTDs-cSiBL3QHP-gKNwOOXFQz9teUW1AE/edit?usp=sharing)
+    - [x] [OKR (*Objectives and key results*)](https://docs.google.com/spreadsheets/d/1DlWdf5taLUJIH6EEKfb-8IYi7ccQ6yM4U44B0BCtWYA/edit?usp=sharing)
