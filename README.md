@@ -104,9 +104,17 @@
 - [x] `http`
     - [x] `router`
         - [x] `/path`
-        - [x] `/path/:param`
+        - [x] `/path/:paramns`
         - [ ] `/path?queries`
 
 - [x] **BONUS**: Projeto Integrador
     - [x] [Apresentação do *Briefing*](https://docs.google.com/document/d/19o1s0FmoVinTDs-cSiBL3QHP-gKNwOOXFQz9teUW1AE/edit?usp=sharing)
     - [x] [OKR (*Objectives and key results*)](https://docs.google.com/spreadsheets/d/1DlWdf5taLUJIH6EEKfb-8IYi7ccQ6yM4U44B0BCtWYA/edit?usp=sharing)
+
+## Aula 29 - Revisão: Introdução à Express
+
+- [x] `npm` 
+- [x] Node.js
+- [x] `express`
+- [x] `http` - `get`
+- [x] `Request` (*Requisição*) - `parmns`, `query`
