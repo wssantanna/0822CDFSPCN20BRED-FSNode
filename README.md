@@ -118,3 +118,16 @@
 - [x] `express`
 - [x] `http` - `get`
 - [x] `Request` (*Requisição*) - `parmns`, `query`
+
+## Aula 30 - O que são padrões e projeto? - *teórica* / *prática*
+
+- [x] Padrão de projeto
+    - [x] **MVC** - *model*, *view*, *controller*
+    - [x] **MVP** - *model*, *view*, *presenter*
+    - [x] **MVVM** - *model*, *view*, *view-model*
+
+- [x] *Controller* (Controlador)
+
+- [x] Importar e exportar módulos
+    - [x] `module.exports`
+    - [x] `require()`
