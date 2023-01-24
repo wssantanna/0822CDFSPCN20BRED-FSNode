@@ -62,4 +62,10 @@ api.listen('12345', () => console.log('Servidor Okay!'));
 
 ## Conclusão
 
-Bons estudos 🤟.
+Bons estudos 🤟. 
+
+------
+
+## Resolução da atividade
+
+- [Código fonte da resolução](../atividade-resolvida/MyDollarQuoteAPI/).
