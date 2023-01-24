@@ -1,0 +1,19 @@
+{
+  "name": "mesa-de-trabalho",
+  "version": "1.0.0",
+  "description": "Esperamos nessa ativiade estimular a compreensão de design de código e a arquitetura MVC (*model*, *view*, *controler*).",
+  "main": "servidor.js",
+  "scripts": {
+    "start": "node ./src/servidor.js",
+    "dev": "nodemon ./src/servidor.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
