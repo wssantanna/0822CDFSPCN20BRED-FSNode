@@ -24,6 +24,16 @@ Esperamos nessa atividade estimular a prática de revisão: Configuração de um
 
 - [ ] Todas as alternativas anteriores.
 
+<details><summary>Resposta</summary>
+<p>
+
+- [x] Definir a porta de acesso a aplicação e qual função será executada nesta porta no momento que a aplicação ser inicializado.
+
+</p>
+</details>
+
+<br>
+
 3 . Responda, é incorreto afirmar que a dependência `Express Framework`
 
 - [ ] Servir como **Interface** para clientes se comunicarem com a aplicação a partir do protocolo `HTTP`.
@@ -34,6 +44,22 @@ Esperamos nessa atividade estimular a prática de revisão: Configuração de um
 
 - [ ] É uma *framework* Nodejs.
 
+<details><summary>Resposta</summary>
+<p>
+
+- [x] É uma ferramenta de desenvolvimento.
+
+</p>
+</details>
+
+<br>
+
 ## Conclusão
 
 Bons estudos 🤟.
+
+------
+
+## Resolução da atividade
+
+- [Código fonte da resolução](../atividade-resolvida/MyDollarQuoteAPI/).

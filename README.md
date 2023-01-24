@@ -142,7 +142,7 @@
         - [x] `module.exports`
         - [x] `require()`
 
-    - [x] `Request` (*Requisição*) - `paramns`, `query`
+    - [x] `Request` (Requisição) - `paramns`, `query`
 
     - [x] Importar e exportar módulos
         - [x] `module.exports`
