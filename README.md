@@ -117,7 +117,7 @@
 - [x] Node.js
 - [x] `express`
 - [x] `http` - `get`
-- [x] `Request` (*Requisição*) - `parmns`, `query`
+- [x] `Request` (*Requisição*) - `paramns`, `query`
 
 ## Aula 30 - O que são padrões e projeto? - *teórica* / *prática*
 
@@ -131,3 +131,29 @@
 - [x] Importar e exportar módulos
     - [x] `module.exports`
     - [x] `require()`
+
+## Aula 31 - MVC: Controller
+
+- [x] Revisão instalação, configuração, implementação das rotas e controles.
+
+    - [x] *Controller* (Controlador)
+
+    - [x] Importar e exportar módulos
+        - [x] `module.exports`
+        - [x] `require()`
+
+    - [x] `Request` (*Requisição*) - `paramns`, `query`
+
+    - [x] Importar e exportar módulos
+        - [x] `module.exports`
+        - [x] `require()`
+
+- [x] *Views* (Telas - Interfaces visuais)
+
+    - [x] Configurando a pasta responsável pela *View* - `api.set("view", CAMINHO_DINAMICO)`
+    - [x] Configurando a *View Engine* - `api.set("view engine", "ejs")`;
+
+- [x] Tipos de *Views* (Telas - Interfaces visuais)
+
+    - [x] Estática `.html`
+    - [x] Reativas / dinâmicas `.ejs`
