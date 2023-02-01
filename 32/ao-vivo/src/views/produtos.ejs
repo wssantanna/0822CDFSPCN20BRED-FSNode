@@ -1,0 +1,58 @@
+
+
+<h1><%= titulo %></h1>
+
+<!--
+
+    Nos exemplos a seguir, utilizamos "diretivas" para manipular
+    os valores que deverão ser apresentados em tela.
+
+    1) Diretiva "for" em uma estrutura de repetição para interar em uma lista.
+
+    const items = ["abobora", "cove", "repolho"];
+
+    <% for(var item of items) { %>
+        <span><%= item %></span>
+    <% } %>
+
+    -- Resultado final
+
+    <span>abobora</span>
+    <span>cove</span>
+    <span>repolho</span>
+
+    2) Diretiva "if" para condicionar a apresentação de elementos.
+
+    const idade = 16;
+
+    <%- if(idade >= 18) { %>
+        <h1>Seja bem vindo</h1>
+    <% } else { %>
+        <h1>É preciso ter no mínimo 18 anos.</h1>
+    <% } %>
+
+    -- Resultado final
+
+    <h1>É preciso ter no mínimo 18 anos.</h1>
+
+    -- Para mais informações acesse a documentação do ejs: https://ejs.co/#docs
+-->
+<% for(var produto of sacola) { %>
+    <li>
+        <%= produto.nome %> 
+        -
+        <% if(produto.quantidade < 5) { %>
+            <span style="background-color: red">
+                <%= produto.quantidade %>
+            </span> 
+        <% } else if(produto.quantidade < 10) { %>
+            <span style="background-color: yellow">
+                <%= produto.quantidade %>
+            </span> 
+        <% } else { %> 
+            <span>
+                <%= produto.quantidade %>
+            </span> 
+        <% } %>
+    </li>
+<% } %>
