@@ -2,110 +2,110 @@
 
 ## Aula 24 - Pensamento lógico com javascript 1/3
 
-- [x] Variáveis
-    - [x] `var` *vs.* `let`
-    - [x] `const`
+- [x] Variáveis:
+    - [x] `var` *vs.* `let`;
+    - [x] `const`.
 
-- [x] Operadores
-    - [x] Aritméticos
-        - [x] `+`
-        - [x] `-`
-        - [x] `/`
-        - [x] `%`
-        - [x] `**`
-        - [x] `+=`
-        - [x] `-=`
-        - [x] `*=`
-    - [x] Lógicos
-        - [x] `==`
-        - [x] `===`
-        - [x] `!=`
-        - [x] `!==`
-        - [x] `<`
-        - [x] `>`
-        - [x] `<=`
-        - [x] `>=`
-        - [x] `&&`
-        - [x] `||`
-    -[ ] Ternários
-        - [ ] `(true) ? true : false `
+- [x] Operadores:
+    - [x] Aritméticos:
+        - [x] `+`;
+        - [x] `-`;
+        - [x] `/`;
+        - [x] `%`;
+        - [x] `**`;
+        - [x] `+=`;
+        - [x] `-=`;
+        - [x] `*=`.
+    - [x] Lógicos:
+        - [x] `==`;
+        - [x] `===`;
+        - [x] `!=`;
+        - [x] `!==`;
+        - [x] `<`;
+        - [x] `>`;
+        - [x] `<=`;
+        - [x] `>=`;
+        - [x] `&&`;
+        - [x] `||`.
+    -[ ] Ternários:
+        - [ ] `(true) ? true : false`.
 
-- [x] Funções 
-    - [x] Declaração `function`
-    - [x] Parametros `(params)`
-    - [x] Contexto `{}`
-    - [x] Métodos `()`
+- [x] Funções: 
+    - [x] Declaração `function`;
+    - [x] Parametros `(params)`;
+    - [x] Contexto `{}`;
+    - [x] Métodos `()`.
 
 
-- [x] Condicionais*
-    - [x] `if`, `else if`, `else`
-    - [x] `switch`, `case`, `continue`, `break` `default`
+- [x] Condicionais*:
+    - [x] `if`, `else if`, `else`;
+    - [x] `switch`, `case`, `continue`, `break` `default`.
 
 **Conteúdo precisou ser ministrado no dia 05/12.*
 
 ## Aula 25 - Pensamento lógico com javascript 2/3
 
-- [x] Lista de valores (`Array`)
-    - [x] Declaração
-    - [x] Acessando os valores através do indice
-    - [x] `indexOf()`
-    - [x] `includes()`
-    - [x] `push()`
-    - [x] `pop()`
-    - [x] `shift()`
-    - [x] `unshift()`
-    - [x] `join()`
+- [x] Lista de valores (`Array`):
+    - [x] Declaração;
+    - [x] Acessando os valores através do indice;
+    - [x] `indexOf()`;
+    - [x] `includes()`;
+    - [x] `push()`;
+    - [x] `pop()`;
+    - [x] `shift()`;
+    - [x] `unshift()`;
+    - [x] `join()`.
 
-- [x] Ciclo de repetições
-    - [x] `for()`
-    - [x] `while()`
-    - [x] `forEach()`
+- [x] Ciclo de repetições:
+    - [x] `for()`;
+    - [x] `while()`;
+    - [x] `forEach()`.
 
 ## Aula 26 - Pensamento lógico com javascript 3/3
 
-- [x] Callbacks
+- [x] Callbacks;
 
-- [x] Objeto literais
-    - [x] Armazenando multiplos objeto em vetores
-    - [x] Ciclo de repetição em vetores de objetos
+- [x] Objeto literais:
+    - [x] Armazenando multiplos objeto em vetores;
+    - [x] Ciclo de repetição em vetores de objetos.
 
-- [x] JSON
-    - [x] `JSON.parse()`
-    - [x] `JSON.stringfy()`
+- [x] JSON:
+    - [x] `JSON.parse()`;
+    - [x] `JSON.stringfy()`.
 
 ## Aula 27 - Como funciona a internet? - *teórica*
 
-- [x] Internet e Web são a mesma coisa?
-- [x] Protocolo HTTP
-- [x] Divisão Cliente x Servidor
+- [x] Internet e Web são a mesma coisa?;
+- [x] Protocolo HTTP;
+- [x] Divisão Cliente x Servidor.
 
 ## Aula 28 - Introdução à Express
 
-- [x] Nodejs
-    - [x] npm
-        - [x] Dependências de produção e desenvolvimento
+- [x] Nodejs:
+    - [x] npm:
+        - [x] Dependências de produção e desenvolvimento.
 
 - [x] Express
-    - [x] `get()`
-        - [x] `require`
-            - [x] `params`
-            - [ ] `body`
-            - [ ] `query`
-        - [x] `response`
-            - [x] `send()`
-            - [ ] `sendStatus()`
-            - [ ] `sendFile()`
-            - [ ] `download()`
-            - [ ] `json()`
-            - [ ] `render()`
-            - [ ] `redirect()`
-    - [x] `listen()`
+    - [x] `get()`:
+        - [x] `require`:
+            - [x] `params`;
+            - [ ] `body`;
+            - [ ] `query`.
+        - [x] `response`:
+            - [x] `send()`;
+            - [ ] `sendStatus()`;
+            - [ ] `sendFile()`;
+            - [ ] `download()`;
+            - [ ] `json()`;
+            - [ ] `render()`;
+            - [ ] `redirect()`.
+    - [x] `listen()`.
 
-- [x] `http`
-    - [x] `router`
-        - [x] `/path`
-        - [x] `/path/:paramns`
-        - [ ] `/path?queries`
+- [x] `http`:
+    - [x] `router`:
+        - [x] `/path`;
+        - [x] `/path/:paramns`;
+        - [ ] `/path?queries`.
 
 - [x] **BONUS**: Projeto Integrador
     - [x] [Apresentação do *Briefing*](https://docs.google.com/document/d/19o1s0FmoVinTDs-cSiBL3QHP-gKNwOOXFQz9teUW1AE/edit?usp=sharing)
@@ -113,47 +113,91 @@
 
 ## Aula 29 - Revisão: Introdução à Express
 
-- [x] `npm` 
-- [x] Node.js
-- [x] `express`
-- [x] `http` - `get`
-- [x] `Request` (*Requisição*) - `paramns`, `query`
+- [x] `npm`; 
+- [x] Node.js;
+- [x] `express`;
+- [x] `http` - `get`;
+- [x] `Request` (*Requisição*) - `paramns`, `query`;
 
 ## Aula 30 - O que são padrões e projeto? - *teórica* / *prática*
 
-- [x] Padrão de projeto
-    - [x] **MVC** - *model*, *view*, *controller*
-    - [x] **MVP** - *model*, *view*, *presenter*
-    - [x] **MVVM** - *model*, *view*, *view-model*
+- [x] Padrão de projeto:
+    - [x] **MVC** - *model*, *view*, *controller*;
+    - [x] **MVP** - *model*, *view*, *presenter*;
+    - [x] **MVVM** - *model*, *view*, *view-model*.
 
-- [x] *Controller* (Controlador)
+- [x] *Controller* (Controlador).
 
-- [x] Importar e exportar módulos
-    - [x] `module.exports`
-    - [x] `require()`
+- [x] Importar e exportar módulos:
+    - [x] `module.exports`;
+    - [x] `require()`.
 
 ## Aula 31 - MVC: Controller
 
 - [x] Revisão instalação, configuração, implementação das rotas e controles.
-
-    - [x] *Controller* (Controlador)
-
-    - [x] Importar e exportar módulos
-        - [x] `module.exports`
-        - [x] `require()`
-
+    - [x] *Controller* (Controlador).
+    - [x] Importar e exportar módulos:
+        - [x] `module.exports`;
+        - [x] `require()`.
     - [x] `Request` (Requisição) - `paramns`, `query`
+    - [x] Importar e exportar módulos:
+        - [x] `module.exports`;
+        - [x] `require()`.
 
-    - [x] Importar e exportar módulos
-        - [x] `module.exports`
-        - [x] `require()`
-
-- [x] *Views* (Telas - Interfaces visuais)
-
-    - [x] Configurando a pasta responsável pela *View* - `api.set("view", CAMINHO_DINAMICO)`
+- [x] *Views* (Telas - Interfaces visuais):
+    - [x] Configurando a pasta responsável pela *View* - `api.set("view", CAMINHO_DINAMICO)`;
     - [x] Configurando a *View Engine* - `api.set("view engine", "ejs")`;
 
-- [x] Tipos de *Views* (Telas - Interfaces visuais)
+- [x] Tipos de *Views* (Telas - Interfaces visuais):
+    - [x] Estática `.html`;
+    - [x] Reativas / dinâmicas `.ejs`.
 
-    - [x] Estática `.html`
-    - [x] Reativas / dinâmicas `.ejs`
+# Aula 32 - MVC: Views
+
+- [x] Revisão instalação, configuração, implementação das rotas, controles e tela de interface gráfica (views):
+    - [x] *Controller* (Controlador).
+    - [x] Importar e exportar módulos:
+        - [x] `module.exports`;
+        - [x] `require()`.
+    - [x] `Request` (Requisição) - `paramns`, `query`
+    - [x] Importar e exportar módulos:
+        - [x] `module.exports`;
+        - [x] `require()`.
+    - [x] Configurando a pasta responsável pela *View* - `api.set("view", CAMINHO_DINAMICO)`;
+    - [x] Configurando a *View Engine* - `api.set("view engine", "ejs")`.
+
+- [x] Manipulando e apresentando dados em *Views*:
+    - [x] `render('NOME_DA_VIEW', { dados })`;
+    - [x] Diretivas:
+        - [x] Atribuição `<%= %>`;
+        - [x] Condicionais `<% if(condição) {%> <% } else if(condição) { %> <% } else { %> <%  } %>`;
+        - [x] Estrutura de repetição `<% for(item of items) { %> <% } %>`.
+    - [x] Dividindo a página em componentes `<%- include(partils/componente) %>`;
+    - [x] Configurando e disponibilizando arquivos estáticos `api.use(express.static(path.join(__dirname, 'public')));`.
+
+# Aula 33 - MVC: Models
+
+- [x] Revisão instalação, configuração, implementação das rotas, controles e tela de interface gráfica (views):
+    - [x] *Controller* (Controlador).
+    - [x] Importar e exportar módulos:
+        - [x] `module.exports`;
+        - [x] `require()`.
+    - [x] `Request` (Requisição) - `paramns`, `query`
+    - [x] Importar e exportar módulos:
+        - [x] `module.exports`;
+        - [x] `require()`.
+    - [x] Configurando a pasta responsável pela *View* - `api.set("view", CAMINHO_DINAMICO)`;
+    - [x] Configurando a *View Engine* - `api.set("view engine", "ejs")`.
+
+- Revisão da manipulando e apresentando dados em *Views*:
+    - [x] `render('NOME_DA_VIEW', { dados })`;
+    - [x] Diretivas:
+        - [x] Atribuição `<%= %>`;
+        - [x] Condicionais `<% if(condição) {%> <% } else if(condição) { %> <% } else { %> <%  } %>`;
+        - [x] Estrutura de repetição `<% for(item of items) { %> <% } %>`.
+    - [x] Dividindo a página em componentes `<%- include(partils/componente) %>`;
+    - [x] Configurando e disponibilizando arquivos estáticos `api.use(express.static(path.join(__dirname, 'public')));
+
+- Simulando a criação e acesso da dados do banco de dados:
+    - [x] Requisição de items a partir de um filtro de paginação;
+    - [x] Requisição de um item a partir do seu código de indentificação unica *primary key*.
