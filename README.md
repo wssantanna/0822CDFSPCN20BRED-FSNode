@@ -152,7 +152,7 @@
     - [x] Estática `.html`;
     - [x] Reativas / dinâmicas `.ejs`.
 
-# Aula 32 - MVC: Views
+## Aula 32 - MVC: Views
 
 - [x] Revisão instalação, configuração, implementação das rotas, controles e tela de interface gráfica (views):
     - [x] *Controller* (Controlador).
@@ -175,7 +175,7 @@
     - [x] Dividindo a página em componentes `<%- include(partils/componente) %>`;
     - [x] Configurando e disponibilizando arquivos estáticos `api.use(express.static(path.join(__dirname, 'public')));`.
 
-# Aula 33 - MVC: Models
+## Aula 33 - MVC: Models
 
 - [x] Revisão instalação, configuração, implementação das rotas, controles e tela de interface gráfica (views):
     - [x] *Controller* (Controlador).
