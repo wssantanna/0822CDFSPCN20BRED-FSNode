@@ -189,7 +189,7 @@
     - [x] Configurando a pasta responsável pela *View* - `api.set("view", CAMINHO_DINAMICO)`;
     - [x] Configurando a *View Engine* - `api.set("view engine", "ejs")`.
 
-- Revisão da manipulando e apresentando dados em *Views*:
+- [x] Revisão da manipulando e apresentando dados em *Views*:
     - [x] `render('NOME_DA_VIEW', { dados })`;
     - [x] Diretivas:
         - [x] Atribuição `<%= %>`;
@@ -198,6 +198,6 @@
     - [x] Dividindo a página em componentes `<%- include(partils/componente) %>`;
     - [x] Configurando e disponibilizando arquivos estáticos `api.use(express.static(path.join(__dirname, 'public')));
 
-- Simulando a criação e acesso da dados do banco de dados:
+- [x] Simulando a criação e acesso da dados do banco de dados:
     - [x] Requisição de items a partir de um filtro de paginação;
     - [x] Requisição de um item a partir do seu código de indentificação unica *primary key*.

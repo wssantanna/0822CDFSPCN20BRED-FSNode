@@ -8,32 +8,64 @@ Esperamos nessa atividade estimular a compreensão de design de código e a arqu
 
 1 . Com base no código fonte a seguir:
 
-[Código-fonte]()
+[Código-fonte](./MyViewApp.zip)
 
-- [ ] **Implemente rotas para as *Views***.
-    - [ ] 
+- [ ] **Inicialize o `npm`** no projeto;
+- [ ] **Realize a instalação das dependências** do projeto:
+    - [ ] Dependencias de desenvolvimento: 
+        - [ ] `nodemon`.
+    - [ ] Dependencias de produção:
+        - [ ] `ejs`;
+        - [ ] `express`.
+
+- [ ] Implemente as **configurações para ultilização da *View***.
+    - [ ] Defina qual a localização do diretório responsável pelas interfaces;
+    - [ ] Defina o `ejs` como *motor de renderização* de interfaces.
+
+- [ ] Implemente o **controlador para acessar e renderizar a *View***.
+    - [ ] Implemente no arquivo `home.controller.js` a renderização da *view* `home.ejs`.
 
 > **Nota:** O código fonte esta presente no arquivo [`servidor.js`](./src/servidor.js). 
 
-2 . Responda, no trecho de código `api.set('view', path.join(__dirname, "views"));`.
+2 . Responda, no trecho de código `api.set('view', path.join(__dirname, "views"));`, estamos...
 
-- [ ] 
+- [ ] Definindo qual a localização do diretório responsável pelas interfaces gráficas.
 
-- [ ] 
+- [ ] Definindo qual o motor de renderização responsável por apresentar a interface gráfica.
 
-- [ ] 
+- [ ] Definindo qual o nome da pasta responsável pelas interfaces gráficas.
 
-- [ ] 
+- [ ] Nenhuma das alternativas anteriores.
 
-3 . Responda, é **incorreto** afirmar que *MVC* é:
+<details><summary>Resposta</summary>
+<p>
 
-- [ ] Um padrão de **arquitetura de projeto**.
+- [x] Definindo qual a localização do diretório responsável pelas interfaces gráficas.
 
-- [ ] **É uma ferramenta** do *Express*.
+</p>
+</details>
 
-- [ ] **É um acrônimo** para *model*, *view*, *controller*.
+<br>
 
-- [ ] No MVC, o C-ontroller **é resonsável por receber e responder as requisições** do usuário.
+3 . Responda, é **correto** afirmar que ao renderizar uma *View* estamos...
+
+- [ ] Apresentando a **inteface gráfica** com extensão `.ejs`;
+
+- [ ] Combinando **dados** com **interface gráfica** e apresentando o resultado em tela.
+
+- [ ] Definindo que as respostas serão uma **View**. 
+
+- [ ] Nenhuma das alternativas anteriores.
+
+<details><summary>Resposta</summary>
+<p>
+
+- [x] Combinando **dados** com **interface gráfica** e apresentando o resultado em tela.
+
+</p>
+</details>
+
+<br>
 
 ## Conclusão
 
