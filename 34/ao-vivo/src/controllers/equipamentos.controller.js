@@ -22,6 +22,7 @@ function requererTelaDeEquipamentos(req, res) {
 
     const equipamentos = equipamentosModel.obterEquipamentos();
 
+    // Combina o HTML + as informações do banco de dados sobre os equipamentos
     res.render('equipamentos', {
         equipamentos
     });
