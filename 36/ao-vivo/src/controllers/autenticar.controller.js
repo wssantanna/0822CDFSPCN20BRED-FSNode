@@ -5,6 +5,8 @@ function requererAutorizacao(requisicao, resposta) {
     /*
         const usuario = requisicao.body.usuario;
         const senha = requisicao.body.senha;
+
+        // Nota: O trecho de código a seguir é uma simplificação.
     */
     const { usuario, senha } = requisicao.body;
 
