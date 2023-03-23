@@ -1,0 +1,19 @@
+{
+  "name": "ao-vivo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/DbServidor.js"
+  },
+  "keywords": [],
+  "author": "Willian Sant Anna",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^3.2.0",
+    "sequelize": "^6.29.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
