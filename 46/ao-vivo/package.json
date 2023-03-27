@@ -1,0 +1,19 @@
+{
+  "name": "ao-vivo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/servidor.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^3.2.0",
+    "sequelize": "^6.30.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
