@@ -1,15 +1,28 @@
+const usuariosModel = require('../models/usuario.model')
+const sessaoMiddleware = require('../middleware/sessao.middleware')
 
 function autenticar(req, res) {
     res.render('autenticar')
 }
 
-function validarAutenticacao(req, res) {
+async function validarCredencial(req, res) {
     const { usuario, senha } = req.body
 
-    if(usuario == "wssantanna" && senha == "12345")
-        res.redirect("/produtos?token=dh")
-    else 
-        res.redirect("/autenticar")
+    const usuarioEncontrado = await usuariosModel.obterUmaCredencial({
+        usuario,
+        senha
+    })
+
+    if(usuarioEncontrado) {
+        req.session.loggedIn = true
+        req.session.username = username
+
+        res.redirect('/produtos')
+    } 
+    else {
+        res.send('Usuário ou senha inválidos')
+    }
+    
 }
 
 function registrar(req, res) {
@@ -17,16 +30,30 @@ function registrar(req, res) {
 }
 
 function cadastrarUsuario(req, res) {
-    //const { nome, sobrenome, usuario, senha } = req.body
+    const { nome, sobrenome, usuario, senha } = req.body
 
-    console.log("novo usuário:", req.body)
+    const novoUsuario = {
+        nome,
+        sobrenome,
+        credencial: {
+            nomeUsuario: usuario,
+            senha
+        }
+    }
 
-    res.redirect("/autenticar")
+    try {
+        usuariosModel.criar(novoUsuario)
+        res.redirect("/autenticar")
+    }
+    catch(error) {
+        res.send(error)
+    }
+
 }
 
 module.exports = { 
     autenticar,
-    validarAutenticacao,
+    validarCredencial,
     registrar,
     cadastrarUsuario
 }

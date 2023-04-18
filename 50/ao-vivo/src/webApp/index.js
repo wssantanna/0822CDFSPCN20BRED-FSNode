@@ -1,6 +1,7 @@
 const express = require('express')
 const path = require('path')
 const bodyParser = require('body-parser')
+const sessao = require('express-session')
 
 // Opção 1
 const produtosController = require('./controllers/produtos.controller')
@@ -21,15 +22,19 @@ webApp.use(bodyParser.urlencoded({ extended: false }))
 // parse application/json
 webApp.use(bodyParser.json())
 webApp.use(express.static(path.join(__dirname, 'public')))
-// sessão
-webApp.use(sessaoMiddleware.autorizar)
 
 // Opção 1
 webApp.get(
     // Rota
     '/produtos',
     // Middleware (Interceptador)
-    autorizar,
+    sessao({
+        // Palavra secreta para criar e posteriomente validar a sessão
+        secret: 'digitalhouse',
+        resave: false,
+        saveUninitialized: true,
+        cookie: { secure: true }
+    }),
     // Controlador 
     produtosController.requererProdutos
 )
@@ -53,11 +58,12 @@ webApp.get(
 //)
 webApp.get(
     '/autenticar', 
+    
     contaController.autenticar
 )
 webApp.post(
-    '/autenticar/validar',
-    contaController.validarAutenticacao
+    '/autenticar',
+    contaController.validarCredencial
 )
 
 webApp.get(

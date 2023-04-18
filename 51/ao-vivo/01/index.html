@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <!-- Don't use this in production: -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <style>
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- DOM REAL é root-->
+    <div id="root"></div>  
+    
+    <script type="text/babel">
+        // 1) Seleção de um elemento pai que vai receber todos os elementos
+        // que eu criar no React...
+        // Nota: Pode ser um ou mais elementos.
+        const conteudo = document.getElementById('root')
+        // 2) Criando um DOM Virtual utilizando Reactjs
+        const domVirtual = ReactDOM.createRoot(conteudo)
+
+        // 3) Componente React
+        // Ele retorna uma "View" em "JSX"
+        function Texto({ texto }) {
+            return <h1>{texto}</h1>
+        }
+
+        function App() {
+            return <div>
+                <Texto texto="Seja bem vindo" />
+                <Texto texto="Obrigado por está aqui" />
+                <Texto text="Até logo" />
+                <Texto text=";D" />
+            </div>
+        }
+         
+        // 4) É a função responsável por renderizar uma ou mais Views
+        domVirtual.render(<App />)
+    </script>
+</body>
+</html>
