@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>App To do List</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <article class="pt-5 pb-2">
+                <h1 class="h1">Todo List</h1>
+            </article>
+        </div>
+        <div class="row g-3">
+            <div class="col">
+                <label 
+                    class="visually-hidden" 
+                    for="AddTaskInput"
+                >
+                    Add Task
+                </label>
+                <input 
+                    class="form-control form-control-lg" 
+                    id="AddTaskInput"
+                    type="text" 
+                    placeholder="Add Task..." 
+                    aria-label="Add Task..."
+                    data-todo-target="input-task"
+                >
+            </div>
+            <div class="col-auto">
+                <button 
+                    class="btn btn-lg btn-primary"
+                    data-todo-target="add"
+                >
+                    +
+                </button>
+            </div>
+        </div>
+        <div class="row g-3">
+            <div class="col">
+                <section class="py-5">
+                    <h2 class="h5 mb-4">My tasks</h2>
+                    <ul class="list-group" data-todo-target="list">
+                        <div class="alert alert-success" role="alert">
+                            <h2 class="h6 m-0">There are no tasks! 🙌🎉</h2>
+                        </div>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
