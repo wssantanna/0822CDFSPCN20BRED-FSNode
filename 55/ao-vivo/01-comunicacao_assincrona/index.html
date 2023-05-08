@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comunicação Assíncrona</title>
+</head>
+<body>
+    
+    <script>
+        // https://jsonplaceholder.typicode.com/posts/1
+
+        // 1) then/catch
+        fetch("https://jsonplaceholder.typicode.com/posts/1")
+        // 1.1) Ele vai receber a resposta se o pedido será ou não processado...
+        .then((resposta) => resposta.json() /* .json() vou aguardar os dados e converter em JSON*/)
+        // 1.2) Ele vai receber os dados e permitir que eu manipule.
+        .then((respostaFinal) => console.log(respostaFinal))
+        .catch(error => console.error(error))
+        
+        // 2) async/await
+        // 2.1.
+        async function requererArtigo() {
+            try {
+
+                const resposta = await fetch("https://jsonplaceholder.typicode.com/posts/1")
+                const respostaFinal = await resposta.json()
+    
+                console.log(respostaFinal)
+            }
+            catch(error) {
+                console.error(error)
+            }
+        }
+
+        // 2.2
+        const requererArtigoEmConst = async function() {
+            try {
+
+                const resposta = await fetch("https://jsonplaceholder.typicode.com/posts/1")
+                const respostaFinal = await resposta.json()
+    
+                return respostaFinal
+            }
+            catch(error) {
+                return error
+            }
+        }
+
+        requererArtigo()
+
+        requererArtigoEmConst()
+            .then((resposta) => console.log(resposta))
+        
+    </script>
+</body>
+</html>
